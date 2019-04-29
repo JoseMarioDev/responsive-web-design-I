@@ -166,7 +166,7 @@ h5 {
 .container {
 	max-width: 1100px;
 	width: 100%;
-	padding: 10px 20px;
+	padding: 20px 40px;
 }
 .nav {
 	display: flex;
@@ -333,9 +333,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-	.container {
-	}
-
 	.logo-top {
 		text-align: center;
 		margin: 40px 0;
@@ -355,4 +352,24 @@ footer {
 }
 
 @media (max-width: 500px) {
+	.container {
+		margin: 10px 0;
+	}
+	.nav {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.nav a {
+		border-top: 1px solid grey;
+		padding: 25px;
+	}
+
+	.nav :nth-child(6) {
+		border-bottom: 1px solid grey;
+	}
+
+	.row {
+		flex-direction: column;
+	}
 }
