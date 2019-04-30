@@ -109,8 +109,7 @@ section {
 
 body {
 	line-height: 1;
-	width: 50%;
-	min-width: 860px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -166,8 +165,10 @@ h5 {
 .container {
 	max-width: 1100px;
 	width: 100%;
-	padding: 20px 40px;
+	margin: 0 auto;
+	padding: 2%;
 }
+
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -327,9 +328,6 @@ footer {
 	.logo-top {
 		display: none;
 	}
-
-	.container {
-	}
 }
 
 @media (max-width: 800px) {
@@ -352,9 +350,6 @@ footer {
 }
 
 @media (max-width: 500px) {
-	.container {
-		margin: 10px 0;
-	}
 	.nav {
 		flex-direction: column;
 		text-align: center;
